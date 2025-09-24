@@ -1,0 +1,9 @@
+streamlit
+python-dotenv
+pandas
+plotly
+PyPDF2
+requests
+sentence-transformers
+faiss-cpu
+numpy
