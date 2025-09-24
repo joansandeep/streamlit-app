@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import os
 import streamlit as st
 import re
@@ -10,9 +9,11 @@ from pathlib import Path
 from src.pipeline import RAGPipeline
 import plotly.express as px
 
-# Load environment variables
-dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
-load_dotenv(dotenv_path)
+# Load secrets from Streamlit Cloud Secrets Manager
+groq_api_key = st.secrets["GROQ_API_KEY"]
+openrouter_api_key = st.secrets["OPENROUTER_API_KEY"]
+groq_model_name = st.secrets.get("GROQ_MODEL_NAME", "llama-3.1-8b-instant")
+
 
 # Configure the app page
 st.set_page_config(
@@ -587,6 +588,7 @@ def display_medical_report(extracted_text):
         ])
     else:
         st.warning("No prescription section found")
+
 
 def chat_page():
     if not st.session_state.system_loaded:

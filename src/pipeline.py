@@ -6,6 +6,7 @@ import time
 import random
 import requests
 import pandas as pd
+import streamlit as st
 from groq import Groq
 from src.data_processor import DataProcessor
 from src.embedder import Embedder
@@ -23,7 +24,7 @@ logger.setLevel(logging.INFO)
 class RAGPipeline:
     def __init__(self, faiss_path, data_path):
         # Allow override via env, fallback to default
-        self.model_name = os.getenv("GROQ_MODEL_NAME", "llama-3.1-8b-instant")
+        self.model_name = st.secrets.get("GROQ_MODEL_NAME", "llama-3.1-8b-instant")
         self.faiss_path = faiss_path
         self.data_path = data_path
 
@@ -69,7 +70,7 @@ class RAGPipeline:
     def _setup_api_clients(self):
         """Setup primary and fallback API clients"""
         # Primary: Groq client
-        self.groq_api_key = os.getenv("GROQ_API_KEY")
+        self.groq_api_key = st.secrets["GROQ_API_KEY"]
         if self.groq_api_key:
             self.groq_client = Groq(api_key=self.groq_api_key)
         else:
@@ -78,7 +79,7 @@ class RAGPipeline:
 
 
         # Fallback: OpenRouter client
-        self.openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
+        self.openrouter_api_key = st.secrets["OPENROUTER_API_KEY"]
         if not self.openrouter_api_key:
             logger.warning("OPENROUTER_API_KEY not found - no fallback available")
 
