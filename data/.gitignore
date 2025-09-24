@@ -1,0 +1,7 @@
+# Ignore common data files and temporary artifacts
+*.tmp
+*.log
+*.sqlite3
+*.h5
+__pycache__/
+.DS_Store

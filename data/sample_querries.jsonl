@@ -1,0 +1,85 @@
+{"query":"What is Paracetamol?","expected":{"type":"identification","answer":"Paracetamol"}}
+{"query":"Alternative to Crocin 650","expected":{"type":"alternative","answer":["Paracetamol"]}}
+{"query":"Compare price of Neurobion vs generic","expected":{"type":"comparison","answer":["Vitamin B1","Vitamin B6","Vitamin B12"]}}
+{"query":"What is the salt in Dolo 650?","expected":{"type":"identification","answer":"Paracetamol"}}
+{"query":"Suggest generic alternatives for Brufen 400","expected":{"type":"alternative","answer":["Ibuprofen"]}}
+{"query":"Which is cheaper: Crocin or generic Paracetamol?","expected":{"type":"comparison","answer":["Paracetamol"]}}
+{"query":"List alternatives for Amoxil 500","expected":{"type":"alternative","answer":["Amoxicillin"]}}
+{"query":"What is the main ingredient of Ciplox?","expected":{"type":"identification","answer":"Ciprofloxacin"}}
+{"query":"Compare price of Flagyl and its generics","expected":{"type":"comparison","answer":["Metronidazole"]}}
+{"query":"Names of generic brands for Combiflam","expected":{"type":"alternative","answer":["Paracetamol","Ibuprofen"]}}
+{"query":"What active salt is present in Disprin?","expected":{"type":"identification","answer":"Aspirin"}}
+{"query":"Cheapest alternative to Calpol 500","expected":{"type":"alternative","answer":["Paracetamol"]}}
+{"query":"Price comparison between Polycrol and generic ORS","expected":{"type":"comparison","answer":["ORS"]}}
+{"query":"Generic alternatives for Zanidip","expected":{"type":"alternative","answer":["Amlodipine"]}}
+{"query":"What is the salt in Spasmofen?","expected":{"type":"identification","answer":"Dicyclomine"}}
+{"query":"Compare price of Ponstan vs generic Mefenamic Acid","expected":{"type":"comparison","answer":["Mefenamic Acid"]}}
+{"query":"Suggest cheaper options for Voveran","expected":{"type":"alternative","answer":["Diclofenac"]}}
+{"query":"Identify active ingredient in Azithral","expected":{"type":"identification","answer":"Azithromycin"}}
+{"query":"Alternatives for Augmentin 625","expected":{"type":"alternative","answer":["Amoxicillin","Clavulanic Acid"]}}
+{"query":"Price difference between Nexium and generic Esomeprazole","expected":{"type":"comparison","answer":["Esomeprazole"]}}
+{"query":"What is Dolo Cold and Flu?","expected":{"type":"identification","answer":"Paracetamol"}}
+{"query":"Is there a cheaper generic for Volini gel?","expected":{"type":"alternative","answer":["Diclofenac Gel"]}}
+{"query":"Compare Metformin with generic options","expected":{"type":"comparison","answer":["Metformin"]}}
+{"query":"What salts are in Combiflame tablets?","expected":{"type":"identification","answer":"Paracetamol, Ibuprofen"}}
+{"query":"Alternative medicines for Kitadol","expected":{"type":"alternative","answer":["Paracetamol"]}}
+{"query":"Cheapest alternative to Timolol eye drops","expected":{"type":"alternative","answer":["Timolol Maleate"]}}
+{"query":"Price comparison between Taxim and generic Cefixime","expected":{"type":"comparison","answer":["Cefixime"]}}
+{"query":"What salt does Clopilet contain?","expected":{"type":"identification","answer":"Clopidogrel"}}
+{"query":"Suggest alternatives for Cilacar","expected":{"type":"alternative","answer":["Cilnidipine"]}}
+{"query":"Compare cost of Cetzine and generic Levocetirizine","expected":{"type":"comparison","answer":["Levocetirizine"]}}
+{"query":"What is the active ingredient in Pan 40?","expected":{"type":"identification","answer":"Pantoprazole"}}
+{"query":"Alternatives to Zerodol SP","expected":{"type":"alternative","answer":["Aceclofenac","Paracetamol"]}}
+{"query":"Price difference between Zandu Balm and generic pain relievers","expected":{"type":"comparison","answer":["Methyl Salicylate"]}}
+{"query":"What salts are in Mucolite?","expected":{"type":"identification","answer":"Ambroxol"}}
+{"query":"Cheapest generic for Becosules capsules","expected":{"type":"alternative","answer":["Multivitamins"]}}
+{"query":"Compare price of Relent and generic Rabeprazole","expected":{"type":"comparison","answer":["Rabeprazole"]}}
+{"query":"What is the salt in Omez 20?","expected":{"type":"identification","answer":"Omeprazole"}}
+{"query":"Suggest alternatives for Saridon tablets","expected":{"type":"alternative","answer":["Paracetamol","Caffeine","Propyphenazone"]}}
+{"query":"Compare cost of Taxim-O and generic Cefixime+Clavulanic Acid","expected":{"type":"comparison","answer":["Cefixime","Clavulanic Acid"]}}
+{"query":"What salt is present in Liv52?","expected":{"type":"identification","answer":"Herbal extracts"}}
+{"query":"Cheapest alternative to Livogen capsules","expected":{"type":"alternative","answer":["Iron supplements"]}}
+{"query":"Price comparison between Dabur Chyawanprash and generics","expected":{"type":"comparison","answer":["Herbal formulations"]}}
+{"query":"What are the salts in Combiflam tablets?","expected":{"type":"identification","answer":"Paracetamol, Ibuprofen"}}
+{"query":"Alternative medicines for Bioflim","expected":{"type":"alternative","answer":["Oral hygiene products"]}}
+{"query":"Cheapest alternative to Volini spray","expected":{"type":"alternative","answer":["Diclofenac spray"]}}
+{"query":"Compare price of Ciplox eye drops and generic","expected":{"type":"comparison","answer":["Ciprofloxacin"]}}
+{"query":"What is the main ingredient in Azithral?","expected":{"type":"identification","answer":"Azithromycin"}}
+{"query":"Alternatives for Augmentin 625 mg","expected":{"type":"alternative","answer":["Amoxicillin","Clavulanic Acid"]}}
+{"query":"Price difference between Nexium and Esomeprazole generics","expected":{"type":"comparison","answer":["Esomeprazole"]}}
+{"query":"What is Dolo Cold and Flu composed of?","expected":{"type":"identification","answer":"Paracetamol"}}
+{"query":"Is there a cheaper alternative for Volini gel?","expected":{"type":"alternative","answer":["Diclofenac Gel"]}}
+{"query":"Compare Metformin and generic variants","expected":{"type":"comparison","answer":["Metformin"]}}
+{"query":"What salts form Combiflam tablets?","expected":{"type":"identification","answer":"Paracetamol, Ibuprofen"}}
+{"query":"Alternatives to Kitadol","expected":{"type":"alternative","answer":["Paracetamol"]}}
+{"query":"Cheapest alternatives to Timolol eye drops","expected":{"type":"alternative","answer":["Timolol Maleate"]}}
+{"query":"Compare price between Taxim and Cefixime generic brands","expected":{"type":"comparison","answer":["Cefixime"]}}
+{"query":"What ingredient does Clopilet have?","expected":{"type":"identification","answer":"Clopidogrel"}}
+{"query":"Suggest alternatives for Cilacar medicine","expected":{"type":"alternative","answer":["Cilnidipine"]}}
+{"query":"Compare prices of Cetzine and Levocetirizine generics","expected":{"type":"comparison","answer":["Levocetirizine"]}}
+{"query":"What is active in Pan 40?","expected":{"type":"identification","answer":"Pantoprazole"}}
+{"query":"Alternatives for Zerodol SP","expected":{"type":"alternative","answer":["Aceclofenac","Paracetamol"]}}
+{"query":"Price differences of Zandu Balm and similar generic pain relievers","expected":{"type":"comparison","answer":["Methyl Salicylate"]}}
+{"query":"What active ingredient does Mucolite contain?","expected":{"type":"identification","answer":"Ambroxol"}}
+{"query":"Cheapest brand generic for Becosules capsules","expected":{"type":"alternative","answer":["Multivitamins"]}}
+{"query":"Compare prices of Relent and Rabeprazole generics","expected":{"type":"comparison","answer":["Rabeprazole"]}}
+{"query":"What salt is in Omez 20?","expected":{"type":"identification","answer":"Omeprazole"}}
+{"query":"Suggest alternatives for Saridon tablets","expected":{"type":"alternative","answer":["Paracetamol","Caffeine","Propyphenazone"]}}
+{"query":"Compare prices of Taxim-O and Cefixime+Clavulanic Acid generics","expected":{"type":"comparison","answer":["Cefixime","Clavulanic Acid"]}}
+{"query":"What salts are in Liv52?","expected":{"type":"identification","answer":"Herbal extracts"}}
+{"query":"Cheapest generic brands for Livogen capsules","expected":{"type":"alternative","answer":["Iron supplements"]}}
+{"query":"Price comparison of Dabur Chyawanprash with generics","expected":{"type":"comparison","answer":["Herbal formulations"]}}
+{"query":"What salts make Combiflam tablets?","expected":{"type":"identification","answer":"Paracetamol, Ibuprofen"}}
+{"query":"Alternative products to Bioflim","expected":{"type":"alternative","answer":["Oral hygiene products"]}}
+{"query":"Cheapest alternatives for Volini spray","expected":{"type":"alternative","answer":["Diclofenac spray"]}}
+{"query":"Compare price of Ciplox eye drops with generics","expected":{"type":"comparison","answer":["Ciprofloxacin"]}}
+{"query":"What is the main component of Azithral?","expected":{"type":"identification","answer":"Azithromycin"}}
+{"query":"Alternative medicines for Augmentin 625 mg","expected":{"type":"alternative","answer":["Amoxicillin","Clavulanic Acid"]}}
+{"query":"Price difference at Nexium vs Esomeprazole generics","expected":{"type":"comparison","answer":["Esomeprazole"]}}
+{"query":"What ingredients does Dolo Cold and Flu have?","expected":{"type":"identification","answer":"Paracetamol"}}
+{"query":"Is Volini gel cheaper than alternatives?","expected":{"type":"alternative","answer":["Diclofenac Gel"]}}
+{"query":"Metformin vs generic price comparison","expected":{"type":"comparison","answer":["Metformin"]}}
+{"query":"What salts are included in Combiflam tablets?","expected":{"type":"identification","answer":"Paracetamol, Ibuprofen"}}
+{"query":"Alternative brands for Kitadol","expected":{"type":"alternative","answer":["Paracetamol"]}}
+{"query":"Cheapest Timolol eye drops alternative","expected":{"type":"alternative","answer":["Timolol Maleate"]}}
+{"query":"Compare Ciplox eye drops price with generic","expected":{"type":"comparison","answer":["Ciprofloxacin"]}}

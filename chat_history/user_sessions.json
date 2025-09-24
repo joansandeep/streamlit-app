@@ -1,0 +1,37 @@
+{
+  "d686a53f": {
+    "username": "sandy",
+    "password_hash": "789340a610b125893c1b4f0c89196bd9",
+    "created_at": "2025-09-22T11:17:55.533055",
+    "last_active": "2025-09-24T22:01:52.291459",
+    "total_conversations": 1,
+    "session_data": {
+      "conversations": [
+        {
+          "id": 0,
+          "title": "what is this pdf about?",
+          "timestamp": "2025-09-23T08:19:18.932636",
+          "messages": [
+            {
+              "role": "user",
+              "content": "what is this pdf about?"
+            },
+            {
+              "role": "assistant",
+              "content": "This PDF is a medical report for a patient named John Doe."
+            },
+            {
+              "role": "user",
+              "content": "what is metformin"
+            },
+            {
+              "role": "assistant",
+              "content": "Metformin is a medication used to treat Type 2 diabetes mellitus and polycystic ovarian syndrome (PCOS). It works by lowering blood sugar levels and improving insulin sensitivity."
+            }
+          ]
+        }
+      ],
+      "current_messages": []
+    }
+  }
+}
